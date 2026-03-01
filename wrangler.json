@@ -1,6 +1,6 @@
 {
-	"name": "eonet",
-	"compatibility_date": "2025-10-08",
+	"name": "eonet-id",
+	"compatibility_date": "2026-03-01",
 	"compatibility_flags": ["nodejs_compat"],
 	"main": "./dist/_worker.js/index.js",
 	"assets": {
@@ -10,5 +10,8 @@
 	"observability": {
 		"enabled": true
 	},
+	"analytics_engine_datasets": [
+		{ "binding": "ANALISTIC_ENGINE", "dataset": "analystic_event" }
+	],
 	"upload_source_maps": true
 }
